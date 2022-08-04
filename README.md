@@ -16,7 +16,6 @@ To install, perform the following steps:
 - Clone the repository
 - `cd` into the repository
 - Run `npm install`
-- Run `npm run prepare`
 - Run `npm run build`
 
 ## Running
