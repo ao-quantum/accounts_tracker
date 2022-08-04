@@ -1,6 +1,5 @@
 <script lang="ts">
-import type { Account, Currency, Transaction } from "@prisma/client";
-
+    import type { Currency, Transaction } from "@prisma/client";
 
     export let account: {
         id: number;
