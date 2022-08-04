@@ -1,38 +1,34 @@
-# create-svelte
+# Accounts Tracker
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is a simple svelte app made to keep track of financial accounts and their transactions.
 
-## Creating a project
+## Prerequisites
 
-If you're seeing this, you've probably already done this step. Congrats!
+You need the following to start:
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+- Node.js v16 or above.
+- MySQL/MariaDB
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Install
 
-## Developing
+To install, perform the following steps:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- Clone the repository
+- `cd` into the repository
+- Run `npm install`
+- Run `npm run prepare`
+- Run `npm run build`
 
-```bash
-npm run dev
+## Running
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+Start it using `npm start`.
 
-## Building
+You should reverse proxy this app using a web server such as nginx.
 
-To create a production version of your app:
+## Support
 
-```bash
-npm run build
-```
+Imagine.
 
-You can preview the production build with `npm run preview`.
+## License
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Licensed under the MIT license.
